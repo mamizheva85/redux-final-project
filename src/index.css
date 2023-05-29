@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(224, 247, 247);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+	font-family: 'Inter', sans-serif;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid black;
+	width: 400px;
+	margin-top: 40px;
+	background-color: white;
+}
+.picture {
+	width:350px;
+	margin-top: 25px;
+}
+.btn {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: white;
+	background-color: #0C5AA6	;
+	border: none;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 15px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.categories, .cart, .clothes {
+	width: 400px;
+	display: flex;
+}
+.clothes {
+	display: flex;
+	flex-direction: column;
+}
+.cart {
+	display: flex;
+	margin-top: 40px;
+flex-direction: column;
+}
+.categories {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	font-size: 20px;
+}
+.shopping-cart {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 10px;
+	;
+}
+svg {
+	width: 30px;
+	height: 30px;
+	border-bottom: 1.5px solid black
+}
+.categoryButtonSelected {
+	background-color: #0C5AA6;
+	color: white;
+}
+.categoryButton:hover {
+	background-color: #5FBDCE;
+	}
+.categoryButton {
+	cursor: pointer;
+	margin: 5px;
+	padding: 5px;
+}
+	.buttons {
+		color: white;
+		background-color: #0C5AA6;
+		border: none;
+		cursor: pointer;
+		width: 23px;
+		height: 23px;
+		font-size: 18px;
+	}
+	span {
+		margin-left: 5px;
+		margin-right: 5px;
+		font-weight: bolder;
+	}
+	.cart-item {
+		margin-top: 30px;
+	}
+	.cart-items {
+		display: flex;
+		margin-left: -50px;
+		align-items: center;
+	}
+	.item-name {
+	text-align: left;
+	}
+	.cart-name-item {
+		font-weight: bolder;
+		width: 200px;
+
+	}
+	.quantity-cart-items {
+		margin-left: 20px;
+		width: 80px;
+	}
+	.cart-price-item {
+		margin-left: 20px;
+		width: 100px;
+	} 
+	.delete-item-box {
+		margin-left: 20px;
+		width: 40px;
+	}
+	h3 {
+		margin-bottom: 0;
+	}
+	.delete-item {
+		border-bottom: none;
+		width: 25px;
+		
+	}
