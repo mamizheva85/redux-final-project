@@ -11,7 +11,7 @@ const Clothes = () => {
 		if (selectedCategory === 'All') return true;
 		return selectedCategory === cloth.category;
 	})
-	.map(cloth => <Cloth cloth={cloth}/>)}
+	.map(cloth => <Cloth cloth={cloth} key={cloth.id}/>)}
 
 	</div>)
 }
