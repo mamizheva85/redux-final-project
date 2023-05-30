@@ -13,7 +13,7 @@ const Cart = () => {
 		</div>
 	
 		<div className='cart-item'>
-		{cartItems.map(cartItem => <CartItem cartItem={cartItem}/>)}
+		{cartItems.map(cartItem => <CartItem cartItem={cartItem} key={cartItem.id}/>)}
 		</div>
 		<div className='total-price'>
 			<h3>TOTAL: ${totalPrice}</h3>
